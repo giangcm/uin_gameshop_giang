@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import "./MyGamesPage.scss";
+import "./MyGamePage.scss";
 import GameCard from "../../components/GameCard/GameCard";
 import Axios from "axios";
 import { API_KEY, GENRES_GAME, prevYear } from "../../utils/API";

@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import "./MyGames.scss";
+import "./MyGame.scss"
 import GameCard from "../GameCard/GameCard";
 import Axios from "axios";
 import { API_KEY, GENRES_GAME, prevYear } from "../../utils/API";
