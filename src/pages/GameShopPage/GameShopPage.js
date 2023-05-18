@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 export default function GameShopPage(props) {
   const [gameShopList, setGameShopList] = useState([]);
 
-  // call API list game và API link buy
+  // call API list game and API link buy
   const callApiGameList = async () => {
     try {
       const gameListAPI = await Axios({
